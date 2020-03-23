@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/02-duixiangcy.h
+iostream
+-
+stdlib.h
+-
+
+/home/ctx/CTX/31_LeetCode/C++practice/4_yzfz2/src/02-dxcymain.cpp
+iostream
+-
+stdlib.h
+-
+02-duixiangcy.h
+/home/ctx/CTX/31_LeetCode/C++practice/4_yzfz2/src/02-duixiangcy.h
+

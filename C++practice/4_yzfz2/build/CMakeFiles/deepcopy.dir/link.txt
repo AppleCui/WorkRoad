@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11 -g -O3 -DNDEBUG   CMakeFiles/deepcopy.dir/src/04-deepcopy.cpp.o  -o deepcopy -rdynamic 
