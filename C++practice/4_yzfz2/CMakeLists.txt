@@ -25,9 +25,8 @@ ADD_EXECUTABLE(duixiangcy src/02-dxcymain.cpp)
 target_link_libraries(duixiangcy ${PROJECT_NAME})
 ADD_EXECUTABLE(simplecopy src/03-simplecopy.cpp)
 ADD_EXECUTABLE(deepcopy src/04-deepcopy.cpp)
-#ADD_EXECUTABLE(gouzaofun src/05-gouzaofun.cpp)
-
-
-#ADD_EXECUTABLE(gouzaoinit src/06-gouzaoinit.cpp)
+ADD_EXECUTABLE(objectpointer src/05-objectpointer.cpp)
+ADD_EXECUTABLE(objmempoint src/06-objmempoint.cpp)
+ADD_EXECUTABLE(thispointer src/07-thispointer.cpp)
 
 

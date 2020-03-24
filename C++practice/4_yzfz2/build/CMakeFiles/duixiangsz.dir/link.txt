@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++11 -g -O3 -DNDEBUG   CMakeFiles/duixiangsz.dir/src/01-dxszmain.cpp.o  -o duixiangsz -rdynamic libyzfz2.so -Wl,-rpath,/home/ctx/CTX/31_LeetCode/C++practice/4_yzfz2/build 

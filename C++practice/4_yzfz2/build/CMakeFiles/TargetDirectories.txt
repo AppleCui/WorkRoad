@@ -1,7 +1,0 @@
-/home/ctx/CTX/31_LeetCode/C++practice/4_yzfz2/build/CMakeFiles/edit_cache.dir
-/home/ctx/CTX/31_LeetCode/C++practice/4_yzfz2/build/CMakeFiles/rebuild_cache.dir
-/home/ctx/CTX/31_LeetCode/C++practice/4_yzfz2/build/CMakeFiles/deepcopy.dir
-/home/ctx/CTX/31_LeetCode/C++practice/4_yzfz2/build/CMakeFiles/yzfz2.dir
-/home/ctx/CTX/31_LeetCode/C++practice/4_yzfz2/build/CMakeFiles/duixiangsz.dir
-/home/ctx/CTX/31_LeetCode/C++practice/4_yzfz2/build/CMakeFiles/duixiangcy.dir
-/home/ctx/CTX/31_LeetCode/C++practice/4_yzfz2/build/CMakeFiles/simplecopy.dir
