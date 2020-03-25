@@ -28,5 +28,7 @@ ADD_EXECUTABLE(deepcopy src/04-deepcopy.cpp)
 ADD_EXECUTABLE(objectpointer src/05-objectpointer.cpp)
 ADD_EXECUTABLE(objmempoint src/06-objmempoint.cpp)
 ADD_EXECUTABLE(thispointer src/07-thispointer.cpp)
+ADD_EXECUTABLE(conmemfun src/08-conmemfun.cpp)
+
 
 

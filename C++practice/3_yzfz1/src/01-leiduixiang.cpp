@@ -1,6 +1,7 @@
 #include <iostream>
 #include <stdlib.h>
-
+namespace leiduixiang
+{
 class Coordinate
 {
 public:
@@ -42,3 +43,4 @@ int main()
 
     return 0;
 }
+} // namespace leiduixiang
