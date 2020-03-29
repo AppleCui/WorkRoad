@@ -3,12 +3,12 @@
 #include <stdlib.h>
 
 using namespace std;
-namespace proprijc
+namespace isa
 {
 class Person
 {
 public:
-    Person();
+    Person(string name = "Jason");
     ~Person();
     void play();
 
@@ -16,9 +16,9 @@ protected:
     string m_strName;
 };
 
-Person::Person()
+Person::Person(string name)
 {
-    m_strName = "Person1";
+    m_strName = name;
     std::cout << "Person()" << std::endl;
 }
 Person::~Person()
@@ -30,4 +30,5 @@ void Person::play()
     std::cout << "Person--play()" << std::endl;
     std::cout << m_strName << std::endl;
 }
-} // namespace proprijc
+
+} // namespace isa

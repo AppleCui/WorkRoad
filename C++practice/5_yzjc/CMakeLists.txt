@@ -25,6 +25,10 @@ message(STATUS "PROJECT_NAME: ${PROJECT_NAME}")
 #target_link_libraries(duixiangcy ${PROJECT_NAME})
 ADD_EXECUTABLE(jicheng src/01-jicheng.cpp)
 ADD_EXECUTABLE(proprijc src/02-proprijc.cpp)
+ADD_EXECUTABLE(isa src/03-isa.cpp)
+ADD_EXECUTABLE(multiplejc src/04-multiplejc.cpp)
+ADD_EXECUTABLE(virtualjc src/05-virtualjc.cpp)
+
 
 
 

@@ -2,15 +2,15 @@
 #include <iostream>
 #include <stdlib.h>
 
-#include "02-propriper.h"
+#include "03-isaperson.h"
 
 using namespace std;
-namespace proprijc
+namespace isa
 {
-class Soldier : protected Person
+class Soldier : public Person
 {
 public:
-    Soldier();
+    Soldier(string name = "Jacky", int age = 20);
     ~Soldier();
     void work();
 
@@ -18,8 +18,10 @@ protected:
     int m_iAge;
 };
 
-Soldier::Soldier()
+Soldier::Soldier(string name, int age)
 {
+    m_strName = name;
+    m_iAge = age;
     std::cout << "Soldier()" << std::endl;
 }
 Soldier::~Soldier()
@@ -28,11 +30,9 @@ Soldier::~Soldier()
 }
 void Soldier::work()
 {
-    m_strName = "Person-Soldier";
-    m_iAge = 20;
     std::cout << m_strName << std::endl;
     std::cout << m_iAge << std::endl;
     std::cout << "Soldier--work()" << std::endl;
 }
 
-} // namespace proprijc
+} // namespace isa
