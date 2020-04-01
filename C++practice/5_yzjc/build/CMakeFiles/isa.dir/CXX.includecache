@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/03-isaperson.h
+iostream
+-
+stdlib.h
+-
+
+../include/03-isasoldier.h
+iostream
+-
+stdlib.h
+-
+03-isaperson.h
+../include/03-isaperson.h
+
+/home/ctx/CTX/31_LeetCode/C++practice/5_yzjc/src/03-isa.cpp
+iostream
+-
+stdlib.h
+-
+03-isasoldier.h
+/home/ctx/CTX/31_LeetCode/C++practice/5_yzjc/src/03-isasoldier.h
+

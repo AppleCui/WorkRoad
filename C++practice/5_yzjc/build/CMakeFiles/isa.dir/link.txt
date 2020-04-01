@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11 -g -O3 -DNDEBUG   CMakeFiles/isa.dir/src/03-isa.cpp.o  -o isa -rdynamic 

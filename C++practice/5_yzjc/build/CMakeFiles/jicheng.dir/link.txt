@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11 -g -O3 -DNDEBUG   CMakeFiles/jicheng.dir/src/01-jicheng.cpp.o  -o jicheng -rdynamic 

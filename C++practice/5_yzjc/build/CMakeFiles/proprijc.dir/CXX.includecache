@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/02-propriinf.h
+iostream
+-
+stdlib.h
+-
+02-proprisol.h
+../include/02-proprisol.h
+
+../include/02-propriper.h
+iostream
+-
+stdlib.h
+-
+
+../include/02-proprisol.h
+iostream
+-
+stdlib.h
+-
+02-propriper.h
+../include/02-propriper.h
+
+/home/ctx/CTX/31_LeetCode/C++practice/5_yzjc/src/02-proprijc.cpp
+iostream
+-
+stdlib.h
+-
+02-propriinf.h
+/home/ctx/CTX/31_LeetCode/C++practice/5_yzjc/src/02-propriinf.h
+

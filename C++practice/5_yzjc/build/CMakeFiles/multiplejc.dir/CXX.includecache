@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/04-djcFarmer.h
+iostream
+-
+stdlib.h
+-
+
+../include/04-djcMigrant.h
+iostream
+-
+stdlib.h
+-
+04-djcFarmer.h
+../include/04-djcFarmer.h
+04-djcWorker.h
+../include/04-djcWorker.h
+
+../include/04-djcWorker.h
+iostream
+-
+stdlib.h
+-
+
+/home/ctx/CTX/31_LeetCode/C++practice/5_yzjc/src/04-multiplejc.cpp
+iostream
+-
+stdlib.h
+-
+04-djcMigrant.h
+/home/ctx/CTX/31_LeetCode/C++practice/5_yzjc/src/04-djcMigrant.h
+

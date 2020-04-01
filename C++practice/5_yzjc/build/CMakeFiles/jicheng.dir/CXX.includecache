@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/01-jcperson.h
+iostream
+-
+stdlib.h
+-
+
+../include/01-jcworker.h
+iostream
+-
+stdlib.h
+-
+01-jcperson.h
+../include/01-jcperson.h
+
+/home/ctx/CTX/31_LeetCode/C++practice/5_yzjc/src/01-jicheng.cpp
+iostream
+-
+stdlib.h
+-
+01-jcworker.h
+/home/ctx/CTX/31_LeetCode/C++practice/5_yzjc/src/01-jcworker.h
+

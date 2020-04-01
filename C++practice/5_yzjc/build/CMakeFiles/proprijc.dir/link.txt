@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11 -g -O3 -DNDEBUG   CMakeFiles/proprijc.dir/src/02-proprijc.cpp.o  -o proprijc -rdynamic 

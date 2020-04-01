@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11 -g -O3 -DNDEBUG   CMakeFiles/multiplejc.dir/src/04-multiplejc.cpp.o  -o multiplejc -rdynamic 
